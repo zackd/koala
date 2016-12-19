@@ -62,7 +62,8 @@ var injectRoutes = function(router, routes) {
 
         router.get(key, function(req, res) {
           console.log(req.path);
-            res.json({message: routes[req.path]});
+
+          res.json({message: routes[req.path]});
         });
 
       }
