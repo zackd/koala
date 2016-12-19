@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "respondentPk": "b06011cf-e2ff-4d03-8388-47a3e5ab9e6e",
+    "uri": "/api/1/task"
+  },
+  "status": "200",
+  "message": "The request was successful and the response data contains the representation requested.",
+  "data": {
+    "list": [
+      {
+        "buttonText": "Install and RUN",
+        "category": "download",
+        "country": "AU,CA,DE,GB,US",
+        "custom": null,
+        "description": "Empire War: Age of Heroes, the new, massively multiplayer strategy game, is here!",
+        "lastUpdated": "2016-04-14T08:07:02Z",
+        "logo": "http://supersonicads-a.akamaihd.net/banners/c_504630_1_0_81243_46.jpeg",
+        "origin": "supersonic",
+        "originId": "629290",
+        "pk": "6b90a5b7-c5ba-4fea-81c4-db2ce882e388",
+        "points": 3,
+        "rank": 0,
+        "title": "Empire War : Age Of Heroes",
+        "workflowDescription": "Mobile app install - free"
+      },
+      {
+        "buttonText": "Install and RUN",
+        "category": "download",
+        "country": "AU,CA,DK,NL,NZ,NO,SG,SE,CH,GB,US",
+        "custom": null,
+        "description": "Google Play Best of 2014 SelectionTop 10 Strategy Game in multiple countries!",
+        "lastUpdated": "2016-04-14T08:07:02Z",
+        "logo": "http://supersonicads-a.akamaihd.net/banners/c_465986_1_0_64269_46.jpeg",
+        "origin": "supersonic",
+        "originId": "808031",
+        "pk": "1a84d6ac-cc4f-40ff-8821-9852c910c413",
+        "points": 3,
+        "rank": 1,
+        "title": "Castle Clash",
+        "workflowDescription": "Mobile app install - free"
+      },
+      {
+        "buttonText": "Install and RUN",
+        "category": "download",
+        "country": "AU,CA,DK,GU,AN,NZ,NO,SG,SE,CH,GB",
+        "custom": null,
+        "description": "Gather your forces and prepare for war in Clash of Lords 2!",
+        "lastUpdated": "2016-04-14T08:13:05Z",
+        "logo": "http://supersonicads-a.akamaihd.net/banners/c_675421_23261_5.png",
+        "origin": "supersonic",
+        "originId": "816335",
+        "pk": "1cbb3ed8-2c01-4531-bca2-2594c6e4e9e6",
+        "points": 3,
+        "rank": 2,
+        "title": "Clash of Lords 2: Heroes War",
+        "workflowDescription": "Mobile app install - free"
+      },
+      {
+        "buttonText": "Install and RUN",
+        "category": "download",
+        "country": "GB,US",
+        "custom": null,
+        "description": "Build your very own faction from Heroes of all races, and lead them to glory!",
+        "lastUpdated": "2016-04-15T00:07:03Z",
+        "logo": "http://s.ssacdn.com/banners/400068.37.49901.png",
+        "origin": "supersonic",
+        "originId": "909393",
+        "pk": "538fcae4-7f64-484c-99cf-17536efba92c",
+        "points": 3,
+        "rank": 3,
+        "title": "Deck Heroes: Legacy",
+        "workflowDescription": "Mobile app install - free"
+      },
+      {
+        "buttonText": "Install and RUN",
+        "category": "download",
+        "country": "AU,BE,CA,DK,FI,FR,DE,IE,KR,LU,NL,NZ,NO,SE,CH,GB,US",
+        "custom": null,
+        "description": "An awesome zombie RTS game. Civilization is in ruins and you need to rebuild it！",
+        "lastUpdated": "2016-04-15T00:07:03Z",
+        "logo": "https://s3-eu-west-1.amazonaws.com/cc-media-int/task/f24e2328-adda-4edc-ba57-0ac178665384.webp",
+        "origin": "supersonic",
+        "originId": "692550",
+        "pk": "6e0d0c2e-73fb-4f8a-af99-99397ca99ef5",
+        "points": 3,
+        "rank": 4,
+        "title": "Z War",
+        "workflowDescription": "Mobile app install - free"
+      },
+      {
+        "buttonText": "Install and RUN",
+        "category": "download",
+        "country": "AU,CA,DK,FI,FR,DE,IT,JP,KR,NO,SE,CH,GB,US",
+        "custom": null,
+        "description": "Empire War: Age of Heroes is the best new Empire MMORPG game!",
+        "lastUpdated": "2016-04-12T15:02:01Z",
+        "logo": "http://supersonicads-a.akamaihd.net/banners/c_958391_43530_5.png",
+        "origin": "supersonic",
+        "originId": "958391",
+        "pk": "db46c802-d849-45f6-bf5e-3d865586c6b1",
+        "points": 2,
+        "rank": 5,
+        "title": "Empire War: Age of Heroes",
+        "workflowDescription": "Mobile app install - free"
+      }
+    ]
+  }
+}
