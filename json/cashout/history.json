@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "respondentPk": "b06011cf-e2ff-4d03-8388-47a3e5ab9e6e",
+    "uri": "/api/1/cashout/history"
+  },
+  "status": "200",
+  "message": "The request was successful and the response data contains the representation requested.",
+  "data": {
+    "list": []
+  }
+}

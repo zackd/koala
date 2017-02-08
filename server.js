@@ -6,7 +6,7 @@ const argv = parseArgs(process.argv.slice(2));
 //console.log(argv);
 
 const port = argv.port || 8080;
-const apiPath = argv.apiPath || '/api';
+const apiPath = argv.apiPath || '/api/1';
 const dataDir = argv.dataDir || './json';
 
 

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "respondentPk": "b06011cf-e2ff-4d03-8388-47a3e5ab9e6e",
+    "uri": "/api/1/cashout/product"
+  },
+  "status": "200",
+  "message": "The request was successful and the response data contains the representation requested.",
+  "data": {
+    "list": [
+      {
+        "currencyCode": "GBP",
+        "points": 128,
+        "amount": "1.28",
+        "exchangeRate": "1.0",
+        "paymentType": "PayPal",
+        "name": "maximum amount with PayPal"
+      }
+    ],
+    "emailCashoutEnabled": "maybe"
+  }
+}
