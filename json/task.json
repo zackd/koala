@@ -12,7 +12,7 @@
         "category": "survey",
         "country": "GB, ID",
         "custom": null,
-        "description": "CerealAwarenessExample wave 2",
+        "description": "Tell us your opinion about breakfast cereals",
         "lastUpdated": "2017-01-16T17:54:29Z",
         "logo": "http://192.168.0.6:8080/media/images/circle-blue.png",
         "origin": "odr",
@@ -20,15 +20,15 @@
         "pk": "033aece4-993c-4fdd-9ec0-535115f5a294",
         "points": 449,
         "rank": 0,
-        "title": "Cereal Awareness",
-        "workflowDescription": "Complete this survey."
+        "title": "Breakfast cereals",
+        "workflowDescription": "Complete the survey, get points"
       },
       {
-        "buttonText": "Start the survey",
+        "buttonText": "Start Survey",
         "category": "survey",
         "country": "GB, ID",
         "custom": null,
-        "description": "more profiling information so we can better understand your needs",
+        "description": "Complete your profile to help us find the best surveys for you!",
         "lastUpdated": "2017-01-16T17:54:29Z",
         "logo": "http://192.168.0.6:8080/media/images/circle-green.png",
         "origin": "odr",
@@ -36,31 +36,31 @@
         "pk": "1331f097-fe80-4823-a0f9-bccb39d4bdb3",
         "points": 344,
         "rank": 1,
-        "title": "In depth profile survey",
-        "workflowDescription": "Complete the survey, get points. Expand your profile, so we can find the best surveys for you!"
+        "title": "Profile survey",
+        "workflowDescription": "Complete the survey, get points"
       },
       {
-        "buttonText": "surveys",
+        "buttonText": "Start Survey",
         "category": "survey",
         "country": "GB, ID",
         "custom": null,
-        "description": "great stuff",
+        "description": "Tell us your opinion about the latest Android devices",
         "lastUpdated": "2017-01-16T17:54:29Z",
         "logo": "http://192.168.0.6:8080/media/images/circle-orange.png",
         "origin": "odr",
         "originId": "pa05h",
         "pk": "b05ca357-d27c-46c9-bf88-73e2c017ece3",
         "points": 100,
-        "rank": 2,
-        "title": "la la la this is a survey",
-        "workflowDescription": "love surveys"
+        "rank": 1,
+        "title": "Mobile devices",
+        "workflowDescription": "Complete the survey, get points"
       },
       {
-        "buttonText": "surveys",
+        "buttonText": "Start Survey",
         "category": "survey",
         "country": "GB, ID",
         "custom": null,
-        "description": "great stuff",
+        "description": "How well does your car perform? Fuel economy? Frequent repairs? We want to know about your experiences",
         "lastUpdated": "2017-01-16T17:54:29Z",
         "logo": "http://192.168.0.6:8080/media/images/circle-red.png",
         "origin": "odr",
@@ -69,7 +69,39 @@
         "points": 100,
         "rank": 2,
         "title": "Motoring survey",
-        "workflowDescription": "love surveys"
+        "workflowDescription": "Complete the survey, get points"
+      },
+      {
+        "buttonText": "Start Survey",
+        "category": "survey",
+        "country": "GB, ID",
+        "custom": null,
+        "description": "Tell us your opinion about popular toothpaste brands",
+        "lastUpdated": "2017-01-16T17:54:29Z",
+        "logo": "http://192.168.0.6:8080/media/images/circle-grey.png",
+        "origin": "odr",
+        "originId": "pa05h",
+        "pk": "q13lw241-d27c-46c9-bf88-35k2c017hjg8",
+        "points": 100,
+        "rank": 3,
+        "title": "Toothpaste survey",
+        "workflowDescription": "Complete the survey, get points"
+      },
+      {
+        "buttonText": "Start Survey",
+        "category": "survey",
+        "country": "GB, ID",
+        "custom": null,
+        "description": "Tell us about your house buying experiences",
+        "lastUpdated": "2017-01-16T17:54:29Z",
+        "logo": "http://192.168.0.6:8080/media/images/circle-pink.png",
+        "origin": "odr",
+        "originId": "pa05h",
+        "pk": "d45fs315-c47c-46c9-bf88-435312f3m871",
+        "points": 100,
+        "rank": 4,
+        "title": "Buying houses",
+        "workflowDescription": "Complete the survey, get points"
       }
     ]
   }
