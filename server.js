@@ -30,6 +30,8 @@ router.get('/', function (req, res) {
 koala.attach(router, dataDir);
 
 app.use(apiPath, router);
+
+app.use("/media", express.static(__dirname + '/media'));
 app.listen(port);
 
 console.log('\nrunning at localhost:' + port + apiPath + ' \n');

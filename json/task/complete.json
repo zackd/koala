@@ -25,23 +25,6 @@
         "workflowDescription": "complete the survey for points"
       },
       {
-        "buttonText": "Start Survey",
-        "category": "survey",
-        "dateCompleted": null,
-        "dateCreated": "2016-07-14T11:15:27Z",
-        "dateExpired": null,
-        "dateFailed": null,
-        "description": "CerealAwarenessExample wave 2",
-        "lastUpdated": "2016-07-14T11:15:27Z",
-        "logo": "https://respondent-portal-i.odbot.co.uk/assets/ghost_cat.png",
-        "payoutPoints": null,
-        "respondentPk": "b06011cf-e2ff-4d03-8388-47a3e5ab9e6e",
-        "status": "started",
-        "taskPk": "033aece4-993c-4fdd-9ec0-535115f5a294",
-        "title": "Cereal Awareness",
-        "workflowDescription": "Complete this survey."
-      },
-      {
         "buttonText": "Start the survey",
         "category": "survey",
         "dateCompleted": "2016-08-31T18:11:14Z",
@@ -55,8 +38,8 @@
         "respondentPk": "b06011cf-e2ff-4d03-8388-47a3e5ab9e6e",
         "status": "completed",
         "taskPk": "1331f097-fe80-4823-a0f9-bccb39d4bdb3",
-        "title": "in depth profile survey",
-        "workflowDescription": "do the survey get points"
+        "title": "In depth profile survey",
+        "workflowDescription": "Complete the survey, get points. Expand your profile, so we can find the best surveys for you!"
       },
       {
         "buttonText": "survey",
