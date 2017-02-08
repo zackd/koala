@@ -51,7 +51,8 @@ Koala.prototype.injectRoutes = function (router, routes) {
 
     for (var route in routes) {
         if (routes.hasOwnProperty(route)) {
-            router.get(route, function (request, response) {
+
+            let handler = function (request, response) {
                 "use strict";
 
                 const filename = routes[request.path];
@@ -61,7 +62,14 @@ Koala.prototype.injectRoutes = function (router, routes) {
                 const json = JSON.parse(fs.readFileSync(filename, 'utf8'));
 
                 response.json(json);
-            });
+            };
+
+            if (route.match(/auth/)) {
+                router.post(route, handler);
+            } else {
+                router.get(route, handler);
+            }
+
         }
     }
 };
