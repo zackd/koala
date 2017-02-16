@@ -11,12 +11,16 @@ const dataDir = argv.dataDir || './json';
 
 
 const express = require('express');
+const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const koala = require('./koala.js');
 
 const app = express();
 const router = express.Router();
+const httpLogger = morgan(':method :url :status :response-time ms - :res[content-length] - :user-agent');
 
+
+app.use(httpLogger);
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
