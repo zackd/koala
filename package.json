@@ -1,11 +1,26 @@
 {
-  "name": "koala-node",
-  "main": "server.js",
+  "name": "koala",
+  "version": "0.1.0",
+  "description": "Quickly mock an API with static json files. Koala takes an input directory containing json files and generates routes based on the directory tree.",
+  "engines": {
+    "node": "~22.9.0"
+  },
+  "type": "module",
   "dependencies": {
-    "body-parser": "~1.0.1",
-    "express": "~4.0.0",
-    "minimist": "^1.2.0",
-    "mongoose": "~3.6.13",
-    "morgan": "^1.8.1"
-  }
+    "body-parser": "~1.20.3",
+    "express": "~4.21.1",
+    "minimist": "^1.2.8",
+    "morgan": "^1.10.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Zack Maxwell",
+    "email": "xackdmx@gmail.com",
+    "url": "https://github.com/zackd"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "server.js"
+  ]
 }

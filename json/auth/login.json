@@ -1,9 +1,8 @@
 {
-  "username": "+447534405065",
   "roles": [
     "ROLE_USER"
   ],
-  "respondentPk": "b06011cf-e2ff-4d03-8388-47a3e5ab9e6e",
+  "userPk": "b06011cf-e2ff-4d03-8388-47a3e5ab9e6e",
   "token_type": "Bearer",
   "access_token": "vrg519kdpfu1v6a0vgtnn5necfvi7d79"
 }

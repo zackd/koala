@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "uuid": "5836c3b0-5b76-4a9f-b3de-d228ed4b5b72",
+    "uri": "/api/1/books/451"
+  },
+  "status": "200",
+  "message": "OK",
+  "data": {
+    "id": 451,
+    "title": "Running Gear",
+    "description": "Essential gear for trail running",
+    "author": 33291,
+    "category": "Sports",
+    "language": "en",
+    "dateCreated": "2021-08-12T09:11:32Z",
+    "lastUpdated": "2024-07-08T14:23:18Z",
+    "image": "images/running-shoes.png"
+  }
+}
+

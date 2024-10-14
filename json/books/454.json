@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "uuid": "bd126abf-223b-41a4-888b-3d2d3556f58d",
+    "uri": "/api/1/books/454"
+  },
+  "status": "200",
+  "message": "OK",
+  "data": {
+    "id": 454,
+    "title": "Photography Tips",
+    "description": "Essential tips for better photography",
+    "author": 67890,
+    "category": "Arts and Entertainment",
+    "language": "en",
+    "dateCreated": "2023-05-14T13:12:47Z",
+    "lastUpdated": "2024-06-22T16:40:15Z",
+    "image": "images/camera-icon.png"
+  }
+}
+

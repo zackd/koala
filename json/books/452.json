@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "uuid": "14e8de23-33d9-4766-95bc-d63d8f7845f6",
+    "uri": "/api/1/books/452"
+  },
+  "status": "200",
+  "message": "OK",
+  "data": {
+    "id": 452,
+    "title": "JavaScript Basics",
+    "description": "An introduction to JavaScript programming",
+    "author": 54321,
+    "category": "Technology",
+    "language": "en",
+    "dateCreated": "2022-03-05T15:30:21Z",
+    "lastUpdated": "2024-04-18T11:59:47Z",
+    "image": "images/javascript-logo.png"
+  }
+}
+

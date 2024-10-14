@@ -1,60 +1,45 @@
+import fs from 'fs';
 
-const fs = require('fs');
+class Koala {
 
-var Koala = function () {
-    "use strict";
+    constructor() {
+        this.routes = {};
+        this.rootDataDir = '';
+        this.apiPath = '';
 
-    console.log("making new koala... \n");
-};
+        console.log("making new koala... \n");
+    }
 
-Koala.prototype.generateRoutesModel = function (dir, apiPath) {
-    "use strict";
+    getRoutes(dir, path, content) {
+        const relativeDir = (dir !== this.rootDataDir) ? dir.replace(this.rootDataDir, '') : '';
 
-    var routes = {},
-        root = dir,
+        path = path ? path + '/' + relativeDir : relativeDir;
+        content = content || [];
 
-        getRoutes = function (dir, path, content) {
-            var relativeDir = (dir !== root) ? dir.replace(root, '') : '';
+        const files = fs.readdirSync(dir);
 
-            path = path ? path + '/' + relativeDir : relativeDir;
-            content = content || [];
+        files.forEach((filename) => {
+            const absPath = dir + '/' + filename;
+            let tmp, name;
 
-            var files = fs.readdirSync(dir);
+            if (fs.statSync(absPath).isDirectory()) {
+                this.getRoutes(absPath, path, content);
 
-            for (var i in files) {
-                var absPath = dir + '/' + files[i],
-                    tmp,
-                    ext,
-                    name;
+            } else {
+                tmp = filename.split('.');
+                tmp.pop(); // remove extension
+                name = tmp.join('');
 
-                if (fs.statSync(absPath).isDirectory()) {
-                    getRoutes(absPath, path, content);
-                }
-                else {
-                    tmp = files[i].split('.');
-                    ext = tmp.pop();
-                    name = tmp.join('');
-
-                    routes[apiPath + path + '/' + name] = absPath;
-                }
+                this.routes[this.apiPath + path + '/' + name] = absPath;
             }
+        });
 
-        };
+        return this.routes
+    };
 
-    getRoutes(dir);
-
-    return routes;
-};
-
-Koala.prototype.injectRoutes = function (router, routes) {
-    "use strict";
-
-    for (var route in routes) {
-        if (routes.hasOwnProperty(route)) {
-
-            let handler = function (request, response) {
-                "use strict";
-
+    injectRoutes(router, routes) {
+        for (const route in routes) {
+            let handler = (request, response) => {
                 const filename = routes[request.path];
 
                 console.log('GET '+ request.path +' -> '+ filename);
@@ -64,25 +49,25 @@ Koala.prototype.injectRoutes = function (router, routes) {
                 response.json(json);
             };
 
+            // TODO: expose configuration for which routes are POST
             if (route.match(/auth/)) {
                 router.post(route, handler);
             } else {
                 router.get(route, handler);
             }
-
         }
     }
-};
 
-Koala.prototype.attach = function(router, dataDir) {
-    "use strict";
+    attach(router, dataDir, apiPath) {
+        this.rootDataDir = dataDir;
+        this.apiPath = apiPath;
 
-    const routes = this.generateRoutesModel(dataDir, '');
+        const routes = this.getRoutes(dataDir);
 
-    console.log("attach routes: ", routes);
+        console.log("attach routes: ", routes);
 
-    this.injectRoutes(router, routes);
-};
+        this.injectRoutes(router, routes);
+    }
+}
 
-
-module.exports = new Koala();
+export default Koala;

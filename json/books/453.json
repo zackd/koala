@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "uuid": "4b85b1b4-c3d5-4d58-95a7-f2132e17b9fe",
+    "uri": "/api/1/books/453"
+  },
+  "status": "200",
+  "message": "OK",
+  "data": {
+    "id": 453,
+    "title": "Meditation for Beginners",
+    "description": "A beginner's guide to meditation techniques",
+    "author": 99786,
+    "category": "Health and Wellness",
+    "language": "en",
+    "dateCreated": "2020-07-22T08:14:35Z",
+    "lastUpdated": "2024-09-30T17:30:22Z",
+    "image": "images/meditation.png"
+  }
+}
+

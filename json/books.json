@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "uuid": "b06011cf-e2ff-4d03-8388-47a3e5ab9e6e",
+    "uri": "/api/1/books"
+  },
+  "status": "200",
+  "message": "OK",
+  "data": {
+    "list": [
+      {
+        "id": 449,
+        "title": "Breakfast cereals",
+        "description": "All about breakfast cereals",
+        "author": 89232,
+        "category": "Food and Drink",
+        "language": "en",
+        "dateCreated": "2022-09-16T17:54:29Z",
+        "lastUpdated": "2024-09-16T17:54:29Z",
+        "image": "images/circle-blue.png"
+      },
+      {
+        "id": 450,
+        "title": "Healthy Smoothies",
+        "description": "A guide to making healthy smoothies",
+        "author": 12458,
+        "category": "Food and Drink",
+        "language": "en",
+        "dateCreated": "2023-01-10T10:22:45Z",
+        "lastUpdated": "2024-05-10T12:45:00Z",
+        "image": "images/smoothie-green.png"
+      },
+      {
+        "id": 451,
+        "title": "Running Gear",
+        "description": "Essential gear for trail running",
+        "author": 33291,
+        "category": "Sports",
+        "language": "en",
+        "dateCreated": "2021-08-12T09:11:32Z",
+        "lastUpdated": "2024-07-08T14:23:18Z",
+        "image": "images/running-shoes.png"
+      },
+      {
+        "id": 452,
+        "title": "JavaScript Basics",
+        "description": "An introduction to JavaScript programming",
+        "author": 54321,
+        "category": "Technology",
+        "language": "en",
+        "dateCreated": "2022-03-05T15:30:21Z",
+        "lastUpdated": "2024-04-18T11:59:47Z",
+        "image": "images/javascript-logo.png"
+      },
+      {
+        "id": 453,
+        "title": "Meditation for Beginners",
+        "description": "A beginner's guide to meditation techniques",
+        "author": 99786,
+        "category": "Health and Wellness",
+        "language": "en",
+        "dateCreated": "2020-07-22T08:14:35Z",
+        "lastUpdated": "2024-09-30T17:30:22Z",
+        "image": "images/meditation.png"
+      },
+      {
+        "id": 454,
+        "title": "Photography Tips",
+        "description": "Essential tips for better photography",
+        "author": 67890,
+        "category": "Arts and Entertainment",
+        "language": "en",
+        "dateCreated": "2023-05-14T13:12:47Z",
+        "lastUpdated": "2024-06-22T16:40:15Z",
+        "image": "images/camera-icon.png"
+      }
+    ]
+  }
+}
